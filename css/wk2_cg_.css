@@ -1,0 +1,77 @@
+body{
+    
+    color:snow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin: 0;
+   background-color: black;
+    
+   
+}
+
+header{
+    display: flex;
+    flex-direction: row; 
+    margin: 0 auto;
+    padding-bottom: 1px;
+}
+.logo{
+    height: 10vh;
+    width: 10vw;
+    margin: 0 auto;
+    background-image: url(../img/www.myagentbackoffice.png);
+    background-size: cover;
+    background-position: center;
+    background-color:ghostwhite ;
+}
+.banner{
+    height: 10vh;
+    flex: auto;
+    width: fit-content;
+    margin: 0 auto;
+    background-image: url(../img/Platinum_Header4-768x58.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(252, 86, 26) ;
+    border: 2px solid snow;
+    padding: .5px 0px .5px 0px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+section{
+    float: left; /*will not work if done alone, must add other properties*/ 
+    width: 85%; /*70% of container NOT the body*/
+    margin: 0 auto;
+   
+
+}
+
+aside{
+    font-size: 10px;
+    float: right;/*will not work if done alone, must add other properties*/
+    width: 10%;
+    text-align: right;
+
+}
+
+footer{
+    clear: both;
+    background-color: rgb(252, 86, 26);
+    padding: 2px 0px 0px 0px;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}

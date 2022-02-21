@@ -1,0 +1,59 @@
+logo: 10vw, 10vh
+header: h1 @ 1.4rem
+navbar: two links
+main: two images, 1 h2 element, 1 paragraph
+ad space: fit image to size of container
+footer: your name
+
+/*divs and spans 
+-Use spans in paragraphs to change fonts, colors, sizes. 
+-Do not use a div to change that.
+*Need to give divs a class <div class=""> do this in html
+    - class is the name of the div 
+    -to seclect a class in css put .className {
+
+You can have a class for your div and then a classes for 
+ elements in that div
+<div class="top">
+        <p class="intro"> 
+            efhtg fbfg <span class= highlight> highlight this </span>
+you can also use <div id="top-section"> *There can only be one id per page. 
+You can't have two "top-section" on the same page. 
+- In CSS id is #top-section { 
+*/
+
+/* CSS Box Model 
+- For each box you have: *do in this order
+    -Margin - margin-top, -bottom,-left,-right
+        *marigin is pushing away creating empty space
+    -Border - border width, style, color
+        *shorthand ex/ border: 5px solid green;
+    -Padding
+        * Padding is creating empty space with background color
+        - padding-top, -right, -bottom, -left *clockwise from top
+            * padding: 10px 15px 15px 5px
+*/
+
+/*Backgorund Image in css 
+.class{
+    background-image: url(../img/hamster.jpg);  
+    *../ means that it is going back from css folder to img folder
+    must have that for it to work
+        - Might need to use padding in order to get your img to look
+    good in box
+        - OR background-repeat: no-repeat;
+                                : repeat-x: repeats on x-axis;
+                                :repeat-y: repeasts up and down;
+
+        - background-size: contain; fills space with image in proportion,
+        it will repeat the image where it cannot fill proportionally
+        - .....: cover; covers entir div with the picture. ***Best option but
+        may lose some quality
+        - background postion: center; *center of image is postioned in the 
+        center of the div
+
+img{
+    float: left or rightd; *give a margin so that whatever the image is floating
+    arond does not touch the image. 
+    clear: both; for things around the float makes it go below the floating 
+    objects.
